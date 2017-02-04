@@ -80,6 +80,7 @@
 		A72790641E46566B00211CE9 /* epixsoft social */ = {
 			isa = PBXGroup;
 			children = (
+				A7FBB1F11E465DAC00EACF43 /* Resources */,
 				A7FBB1EE1E46591700EACF43 /* Model */,
 				A7FBB1EF1E46591B00EACF43 /* View */,
 				A7FBB1F01E46592100EACF43 /* Controller */,
@@ -113,6 +114,13 @@
 				A72790671E46566B00211CE9 /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		A7FBB1F11E465DAC00EACF43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
