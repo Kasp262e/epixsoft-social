@@ -14,6 +14,11 @@
 		A727906D1E46566B00211CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A727906C1E46566B00211CE9 /* Assets.xcassets */; };
 		A72790701E46566B00211CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A727906E1E46566B00211CE9 /* LaunchScreen.storyboard */; };
 		A72790781E4656AF00211CE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A72790771E4656AF00211CE9 /* GoogleService-Info.plist */; };
+		A7EF8F591E47AAEB00B42A93 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8F581E47AAEB00B42A93 /* FancyView.swift */; };
+		A7EF8F5C1E47AB7200B42A93 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8F5B1E47AB7200B42A93 /* Constants.swift */; };
+		A7EF8F5E1E47AD9A00B42A93 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8F5D1E47AD9A00B42A93 /* RoundBtn.swift */; };
+		A7EF8F601E47AF1300B42A93 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8F5F1E47AF1300B42A93 /* FancyField.swift */; };
+		A7EF8F621E47B03A00B42A93 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8F611E47B03A00B42A93 /* FancyBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		A727906F1E46566B00211CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A72790711E46566B00211CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A72790771E4656AF00211CE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A7EF8F581E47AAEB00B42A93 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		A7EF8F5B1E47AB7200B42A93 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A7EF8F5D1E47AD9A00B42A93 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		A7EF8F5F1E47AF1300B42A93 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		A7EF8F611E47B03A00B42A93 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		F14DA7BECE16F34881CF0C2A /* Pods-epixsoft social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epixsoft social.release.xcconfig"; path = "Pods/Target Support Files/Pods-epixsoft social/Pods-epixsoft social.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +90,7 @@
 		A72790641E46566B00211CE9 /* epixsoft social */ = {
 			isa = PBXGroup;
 			children = (
+				A7EF8F5A1E47AB5E00B42A93 /* Util */,
 				A7FBB1F11E465DAC00EACF43 /* Resources */,
 				A7FBB1EE1E46591700EACF43 /* Model */,
 				A7FBB1EF1E46591B00EACF43 /* View */,
@@ -94,6 +105,14 @@
 			path = "epixsoft social";
 			sourceTree = "<group>";
 		};
+		A7EF8F5A1E47AB5E00B42A93 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF8F5B1E47AB7200B42A93 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		A7FBB1EE1E46591700EACF43 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +123,10 @@
 		A7FBB1EF1E46591B00EACF43 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A7EF8F581E47AAEB00B42A93 /* FancyView.swift */,
+				A7EF8F5D1E47AD9A00B42A93 /* RoundBtn.swift */,
+				A7EF8F5F1E47AF1300B42A93 /* FancyField.swift */,
+				A7EF8F611E47B03A00B42A93 /* FancyBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -248,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7EF8F601E47AF1300B42A93 /* FancyField.swift in Sources */,
 				A72790681E46566B00211CE9 /* SignInVC.swift in Sources */,
+				A7EF8F5E1E47AD9A00B42A93 /* RoundBtn.swift in Sources */,
 				A72790661E46566B00211CE9 /* AppDelegate.swift in Sources */,
+				A7EF8F591E47AAEB00B42A93 /* FancyView.swift in Sources */,
+				A7EF8F5C1E47AB7200B42A93 /* Constants.swift in Sources */,
+				A7EF8F621E47B03A00B42A93 /* FancyBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +401,7 @@
 			baseConfigurationReference = 295ED95A2D02477BA96847D1 /* Pods-epixsoft social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = XL6987KDEY;
 				INFOPLIST_FILE = "epixsoft social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -387,6 +416,7 @@
 			baseConfigurationReference = F14DA7BECE16F34881CF0C2A /* Pods-epixsoft social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = XL6987KDEY;
 				INFOPLIST_FILE = "epixsoft social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
