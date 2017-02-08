@@ -10,4 +10,6 @@ target 'epixsoft social' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
 end
