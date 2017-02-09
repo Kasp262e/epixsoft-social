@@ -11,3 +11,5 @@ import UIKit
 let SHADOW_GRAY: CGFloat = 120.0 / 255
 
 let SHADOW_GRAY_COLOR = UIColor(red: SHADOW_GRAY, green: SHADOW_GRAY, blue: SHADOW_GRAY, alpha: 0.75).cgColor
+
+let KEY_UID = "uid"
