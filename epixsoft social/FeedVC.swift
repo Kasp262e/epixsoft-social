@@ -10,12 +10,17 @@ import UIKit
 import Firebase
 import SwiftKeychainWrapper
 
-class FeedVC: UIViewController {
+class FeedVC: UIViewController, UITableViewDelegate {
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    
+    
+    
+    
 
     @IBAction func signInPressed(_ sender: UIButton) {
         
