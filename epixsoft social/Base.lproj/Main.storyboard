@@ -223,7 +223,7 @@
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="381" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="F1x-XR-cu4">
                                 <rect key="frame" x="0.0" y="154" width="320" height="414"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.94361096619999996" green="0.94373577829999999" blue="0.94657748939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.94361096619999996" green="0.94373577829999999" blue="0.94657748939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="381" id="kFQ-sE-WhM" customClass="PostCell" customModule="epixsoft_social" customModuleProvider="target">
@@ -324,6 +324,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="Ci2-k7-p8V" secondAttribute="bottom" constant="8" id="rVW-Wm-Y9J"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.94361096619999996" green="0.94373577829999999" blue="0.94657748939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="caption" destination="Qpg-Ev-5Hq" id="zap-yH-OWr"/>
                                             <outlet property="likesLbl" destination="J4x-0D-3c7" id="3Xd-OL-1jI"/>
