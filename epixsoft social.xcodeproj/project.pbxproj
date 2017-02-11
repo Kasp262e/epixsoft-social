@@ -17,6 +17,7 @@
 		A77DAE151E4D0C220032066C /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77DAE141E4D0C220032066C /* FeedVC.swift */; };
 		A7EE6C831E4E4B8300F47CE8 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EE6C821E4E4B8300F47CE8 /* CircleView.swift */; };
 		A7EE6C851E4E5CCD00F47CE8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EE6C841E4E5CCD00F47CE8 /* PostCell.swift */; };
+		A7EE6C881E4F1C0500F47CE8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EE6C871E4F1C0500F47CE8 /* DataService.swift */; };
 		A7EF8F591E47AAEB00B42A93 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8F581E47AAEB00B42A93 /* FancyView.swift */; };
 		A7EF8F5C1E47AB7200B42A93 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8F5B1E47AB7200B42A93 /* Constants.swift */; };
 		A7EF8F5E1E47AD9A00B42A93 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8F5D1E47AD9A00B42A93 /* RoundBtn.swift */; };
@@ -39,6 +40,7 @@
 		A7B81DF91E49104200375A99 /* epixsoft social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "epixsoft social.entitlements"; sourceTree = "<group>"; };
 		A7EE6C821E4E4B8300F47CE8 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		A7EE6C841E4E5CCD00F47CE8 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		A7EE6C871E4F1C0500F47CE8 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A7EF8F581E47AAEB00B42A93 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		A7EF8F5B1E47AB7200B42A93 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A7EF8F5D1E47AD9A00B42A93 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		A72790641E46566B00211CE9 /* epixsoft social */ = {
 			isa = PBXGroup;
 			children = (
+				A7EE6C861E4F1BEC00F47CE8 /* Services */,
 				A7B81DF91E49104200375A99 /* epixsoft social.entitlements */,
 				A7EF8F5A1E47AB5E00B42A93 /* Util */,
 				A7FBB1F11E465DAC00EACF43 /* Resources */,
@@ -111,6 +114,14 @@
 				A72790771E4656AF00211CE9 /* GoogleService-Info.plist */,
 			);
 			path = "epixsoft social";
+			sourceTree = "<group>";
+		};
+		A7EE6C861E4F1BEC00F47CE8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A7EE6C871E4F1C0500F47CE8 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		A7EF8F5A1E47AB5E00B42A93 /* Util */ = {
@@ -292,6 +303,7 @@
 				A72790681E46566B00211CE9 /* SignInVC.swift in Sources */,
 				A7EF8F5E1E47AD9A00B42A93 /* RoundBtn.swift in Sources */,
 				A72790661E46566B00211CE9 /* AppDelegate.swift in Sources */,
+				A7EE6C881E4F1C0500F47CE8 /* DataService.swift in Sources */,
 				A77DAE151E4D0C220032066C /* FeedVC.swift in Sources */,
 				A7EF8F591E47AAEB00B42A93 /* FancyView.swift in Sources */,
 				A7EF8F5C1E47AB7200B42A93 /* Constants.swift in Sources */,

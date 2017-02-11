@@ -39,7 +39,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
 
-    @IBAction func signOutPressed(_ sender: UIButton) {
+    @IBAction func signOutPressed(_ sender: Any) {
         
         performSegue(withIdentifier: "goToSignIn", sender: nil)
         let keyChainResult = KeychainWrapper.standard.removeObject(forKey: KEY_UID)
