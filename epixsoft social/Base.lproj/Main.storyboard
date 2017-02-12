@@ -212,6 +212,9 @@
                                                     <constraint firstAttribute="width" constant="49" id="sd7-hj-q8Y"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="add-post"/>
+                                                <connections>
+                                                    <action selector="PostButtonPressed:" destination="FaU-nF-ce7" eventType="touchUpInside" id="Gm4-d5-MN6"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -292,16 +295,16 @@
                                                             </constraints>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Tev-65-g2c">
-                                                            <rect key="frame" x="258" y="335" width="77" height="22"/>
+                                                            <rect key="frame" x="258.5" y="335" width="76.5" height="22"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Likes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7St-nx-xcQ">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="36" height="22"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="35.5" height="22"/>
                                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.54000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4x-0D-3c7">
-                                                                    <rect key="frame" x="41" y="0.0" width="36" height="22"/>
+                                                                    <rect key="frame" x="40.5" y="0.0" width="36" height="22"/>
                                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -355,6 +358,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="captionField" destination="jMp-7d-9ka" id="2qg-Md-ABu"/>
                         <outlet property="imageAdd" destination="NhA-XP-dlq" id="Qda-xa-gVR"/>
                         <outlet property="tableView" destination="F1x-XR-cu4" id="KVU-s0-NCA"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="goToSignIn" id="AWC-Le-qR6"/>
