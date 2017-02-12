@@ -24,6 +24,7 @@
 		A7EF8F5E1E47AD9A00B42A93 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8F5D1E47AD9A00B42A93 /* RoundBtn.swift */; };
 		A7EF8F601E47AF1300B42A93 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8F5F1E47AF1300B42A93 /* FancyField.swift */; };
 		A7EF8F621E47B03A00B42A93 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF8F611E47B03A00B42A93 /* FancyBtn.swift */; };
+		A7FADFB51E50A3DB00169822 /* RemoveKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FADFB41E50A3DB00169822 /* RemoveKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		A7EF8F5D1E47AD9A00B42A93 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		A7EF8F5F1E47AF1300B42A93 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		A7EF8F611E47B03A00B42A93 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		A7FADFB41E50A3DB00169822 /* RemoveKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveKeyboard.swift; sourceTree = "<group>"; };
 		F14DA7BECE16F34881CF0C2A /* Pods-epixsoft social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-epixsoft social.release.xcconfig"; path = "Pods/Target Support Files/Pods-epixsoft social/Pods-epixsoft social.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				A7EE6C891E4F336D00F47CE8 /* Post.swift */,
+				A7FADFB41E50A3DB00169822 /* RemoveKeyboard.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				A7EE6C831E4E4B8300F47CE8 /* CircleView.swift in Sources */,
 				A7EF8F601E47AF1300B42A93 /* FancyField.swift in Sources */,
 				A72790681E46566B00211CE9 /* SignInVC.swift in Sources */,
+				A7FADFB51E50A3DB00169822 /* RemoveKeyboard.swift in Sources */,
 				A7EE6C8A1E4F336D00F47CE8 /* Post.swift in Sources */,
 				A7EF8F5E1E47AD9A00B42A93 /* RoundBtn.swift in Sources */,
 				A72790661E46566B00211CE9 /* AppDelegate.swift in Sources */,
